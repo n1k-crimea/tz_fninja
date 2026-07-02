@@ -59,14 +59,6 @@ docker compose exec app php artisan migrate
 | Статистика переходов | `app/Filament/Resources/LinkResource/RelationManagers/ClicksRelationManager.php` |
 | Виджет дашборда | `app/Filament/Widgets/StatsOverview.php` |
 
-## Тесты
-
-Функциональные тесты (редирект, учёт кликов, 404, автогенерация кода) работают на
-in-memory SQLite:
-
-```bash
-docker compose exec app php artisan test
-```
 
 ## Локальный запуск без Docker
 
